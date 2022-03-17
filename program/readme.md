@@ -1,0 +1,7 @@
+1.project0\program\AAA\form\cars_ui.py 中的retranslateUi的path_gar 为存储停车场内已停车辆信息的文件的绝对路径
+2.project0\program\AAA\form\help.py 中的retranslateUi的setText中的文本为帮助文档，如果需要也可以通过文件读入:恢复热translateUi中被注释的代码，并注释掉此前的self.label.setText语句即可
+3.project0\program\AAA\form\main_window_ui.py中的retranslateUi的path_save为临时存储图片识别结果的文件的绝对路径
+4.project0\program\AAA\gui\fream.py中的show_video 中的path_save为临时存储图片识别结果的文件的绝对路径（应与路径3保持一致）
+5.project0\program\AAA\gui\fream.py中的driver_window中的path_save为临时存储图片识别结果的文件的绝对路径（应与路径3、4保持一致）
+6.project0\program\cpsb\carLicense.py中出现的三个read_directory中的路径为cpsb目录下refer1文件夹的绝对路径
+7.project0\program\park\main.py中的三个路径path_in,path_gar,path_show分别为内部车辆信息文件、车库内目前停放车辆的信息文件、存储记录的信息文件的绝对路径
